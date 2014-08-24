@@ -129,6 +129,9 @@ function subscribeToChannel () {
   console.log(isTablet);
 
   var Window;
+  
+
+  
   if (isTablet) {
     Window = require('ui/tablet/ApplicationWindow');
   } else {
@@ -142,5 +145,12 @@ function subscribeToChannel () {
       Window = require('ui/handheld/ApplicationWindow');
     }
   }
+  
+  	if (osname === 'android') {
+	  initializePushAndroid();
+	} else {
+	  initializePushIOS();
+	}
+	
   new Window().open();
 })();
