@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+	<property name="acs-oauth-secret-production" type="string">KAFMKPI1Ij7ju9SPaXvQfmvhOlksWeXQ</property>
+    <property name="acs-oauth-key-production" type="string">FuQvFkZyFvcCH39oMSAVZ8pXKtbIxH8m</property>
     <property name="acs-api-key-production" type="string">9HJHK5n00IzcpTR6ACEi09YfY5DzbPls</property>
+    
+    <property name="acs-oauth-secret-development" type="string">i8bD7lsmRLKq7ZsIO4qq9srUVqrQJj6d</property>
+    <property name="acs-oauth-key-development" type="string">eK2bm6Rv9wRh6EWNh5RRpBtAOXoI1lYY</property>
     <property name="acs-api-key-development" type="string">tgSexNTbICIAMC4Q2Xsm7tujUi3qkjmv</property>
-    <id>me.about.kounis.stavros.tt.pushnotifications</id>
-    <name>PushNotifications</name>
+    
+    <id>com.titaniumtemplates.tuts.pushnotifications</id>
+    <name>push-notifications</name>
     <version>1.0</version>
     <publisher>skounis</publisher>
     <url>http://about.me/stavros.kounis</url>
